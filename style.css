@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #9b59b6, #e75353);
+}
+
+.main-heading {
+    font-size: 60px;
+    /* default h1 is ~32px, so 60px is bigger */
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.array-container {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 60vh;
+    width: 80vw;
+    justify-content: center;
+    align-items: flex-end;
+    /* bars grow from bottom */
+    gap: 5px;
+    margin-top: 10px;
+}
+
+#slider {
+    width: 400px;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.arrbar {
+    border-radius: 5px;
+    width: 20px;
+    background: rgb(248, 246, 246);
+    flex: 1;
+}

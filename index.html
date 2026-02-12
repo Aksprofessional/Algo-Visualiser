@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALGO VISUALISER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="main-heading">ALGO VISUALISER</h1>
+        <h2>Drag the slider to change the number of array elements:</h2>
+        <span>0</span>
+        <input type="range" id="slider" min="0" max="100" value="6">
+        <span>100</span>
+        <div class="array-container"></div>
+        <button onclick="generatenewarray()">Generate New Array</button>
+        <button onclick="bubblesort()">Bubble Sort</button>
+        <button onclick="selectionsort()">Selection Sort</button>
+        <button onclick="exchangesort()">Exchange Sort</button>
+        <button onclick="insertionsort()">Insertion Sort</button>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
